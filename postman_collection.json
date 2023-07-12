@@ -1,0 +1,174 @@
+{
+	"id": "0f6c8599-8db7-bdb8-7a68-536c75ca3f27",
+	"name": "askziva",
+	"description": "",
+	"order": [
+		"4baa7306-b85a-7eb4-b695-1d88ad8e7adf",
+		"3b580882-89c8-efdb-05c8-946821d771a8",
+		"a7596213-54bd-3343-8b5a-6a680f77599c",
+		"e8c6c990-abdd-eb8e-99f6-8c43d2ab3217",
+		"8e16d417-b287-12a3-ba5c-e6a9efa05399"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1582044137677,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "3b580882-89c8-efdb-05c8-946821d771a8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/patientInfo/doctoradvice",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0f6c8599-8db7-bdb8-7a68-536c75ca3f27",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:4000/patientInfo/doctoradvice",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582044184051,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"patientid\":\"1\"\n\n}"
+		},
+		{
+			"id": "4baa7306-b85a-7eb4-b695-1d88ad8e7adf",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/patientInfo/appointment/book",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0f6c8599-8db7-bdb8-7a68-536c75ca3f27",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:4000/patientInfo/appointment/book",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582044142143,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"patientid\":\"1\",\n\t\"date\":\"2020-02-19\",\n\t\"slotid\":\"3\",\n\t\"user\":\"user\",\n\t\"fname\":\"fname\",\n\t\"gender\":\"Male\",\n\t\"CID\":\"2\",\n\t\"DID\":\"2\",\n\t\"Timestamp\":\"2017-11-05 16:43:48\",\n\t\"status\":\"book\"\n\n}"
+		},
+		{
+			"id": "8e16d417-b287-12a3-ba5c-e6a9efa05399",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/patientInfo/qanda",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0f6c8599-8db7-bdb8-7a68-536c75ca3f27",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:4000/patientInfo/qanda",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582044415471,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"patientid\":\"2\"\n}"
+		},
+		{
+			"id": "a7596213-54bd-3343-8b5a-6a680f77599c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/doctor/appointment",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0f6c8599-8db7-bdb8-7a68-536c75ca3f27",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:4000/doctor/appointment",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582044208226,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"doctorid\":\"2\",\n\t\"date\":\"2020-01-10\"\n}"
+		},
+		{
+			"id": "e8c6c990-abdd-eb8e-99f6-8c43d2ab3217",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/patientInfo/appointment",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0f6c8599-8db7-bdb8-7a68-536c75ca3f27",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:4000/patientInfo/appointment",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582044394825,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"patientid\":\"1\",\n\t\"date\":\"2020-01-10\"\n}"
+		}
+	]
+}
